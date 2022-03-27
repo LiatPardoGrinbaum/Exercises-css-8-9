@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+.clr {
+  clear: both;
+}
+
+.container {
+  border: 1px solid black;
+  max-width: 800px;
+  margin: auto;
+  background-color: rgb(188, 238, 250);
+  position: relative;
+  padding: 10px;
+}
+
+.background_image {
+  background-image: url(./images/backgroundPic.jpg);
+  background-size: cover;
+  backdrop-filter: blur(5px);
+  background-attachment: fixed;
+}
+
+.box {
+  margin: auto;
+  background-color: rgb(188, 238, 250);
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.5px;
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(10, 172, 172);
+  border-style: solid;
+  padding: 10px;
+}
+
+#header {
+  text-align: center;
+  /* box-shadow: 5px 5px 20px 10px rgb(141, 132, 132); */
+  /* opacity: 0.5; */
+}
+
+#navbar {
+  text-align: center;
+  margin: auto;
+  background-color: rgb(206, 245, 255);
+  position: sticky;
+  border: 2px solid rgb(10, 172, 172);
+  border-style: solid;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+}
+
+#navbar li {
+  display: inline;
+  padding-left: 0px;
+  padding-right: 10px;
+  margin: auto;
+}
+
+#navbar ul {
+  padding-left: 0px;
+}
+
+.btn {
+  text-align: center;
+  padding: 5px 10px;
+  background-color: rgb(30, 142, 233);
+  border: 2px solid rgb(30, 142, 233);
+  color: white;
+  font-size: 14px;
+  border-radius: 20px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(55, 195, 219);
+}
+
+#main {
+  font-weight: bold;
+  text-align: center;
+  float: right;
+  width: 68%;
+  margin-bottom: 5px;
+}
+
+#main p {
+  text-align: left;
+}
+
+#aside {
+  text-align: center;
+  float: left;
+  width: 30%;
+  /* height: ;    ? how can i make it like the main height ? */
+}
+
+.aside li {
+  font-size: 18px;
+  text-align: left;
+}
+
+.enhance {
+  margin: auto;
+  background-color: rgb(161, 219, 209);
+  color: black;
+  font-weight: bold;
+}
+
+#footer {
+  text-align: center;
+  color: rgb(14, 12, 99);
+}
+
+.myimage {
+  height: 300px;
+  width: 400px;
+  border: 1px solid rgb(18, 66, 75);
+}
